@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 80px;
+  min-height: 100vh;
 }
 
 code {
