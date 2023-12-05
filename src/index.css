@@ -7,9 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url(../public/bg1.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   padding-top: 80px;
-  min-height: 100vh;
 }
 
 code {
