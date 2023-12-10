@@ -8,8 +8,6 @@
  * https://github.com/scottschiller/Snowstorm/blob/master/license.txt
  */
 
-/*jslint nomen: true, plusplus: true, sloppy: true, vars: true, white: true */
-/*global window, document, navigator, clearInterval, setInterval */
 export default window.snowStorm = new (function () {
   // jshint ignore:line
   var defaults = {
