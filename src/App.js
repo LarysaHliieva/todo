@@ -1,7 +1,7 @@
 import "./App.css";
 import Main from "./components/Main";
 // import Main1 from "./components/1/Main1";
-import "./snow";
+// import "./snow";
 
 function App() {
   return (

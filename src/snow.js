@@ -22,7 +22,7 @@ export default window.snowStorm = new (function () {
     flakeBottom: null, // Integer for Y axis snow limit, 0 or null for "full-screen" snow effect
     followMouse: false, // Snow movement can respond to the user's mouse
     snowColor: "#fff", // Don't eat (or use?) yellow snow.
-    snowCharacter: "&bull;", // &bull; = bullet, &middot, is square on some systems etc.
+    snowCharacter: "&bull", // &bull; = bullet, &middot, is square on some systems etc.
     snowStick: true, // Whether or not snow should "stick" at the bottom. When off, will never collect.
     targetElement: null, // element which snow will be appended to (null = document.body) - can be an element
     // ID eg. 'myDiv', or a DOM node reference
@@ -713,22 +713,22 @@ export default window.snowStorm = new (function () {
 })();
 
 // window.snowStorm = {
-// flakesMax: 100,
-// flakesMaxActive: 75,
-// animationInterval: 35,
-// excludeMobile: true,
-// flakeBottom: false,
-// followMouse: false,
-// snowColor: '#fff',
-// snowCharacter: '&bull,',
-// snowStick: false,
-// useMeltEffect: false,
-// useTwinkleEffect: false,
-// usePositionFixed: true,
-// freezeOnBlur: false,
-// windOffset: 1,
-// windMultiplier: 1,
-// flakeTypes: 6,
-// vMaxX: 4,
-// vMaxY: 3,
+//   flakesMax: 100,
+//   flakesMaxActive: 75,
+//   animationInterval: 35,
+//   excludeMobile: true,
+//   flakeBottom: false,
+//   followMouse: false,
+//   snowColor: "#fff",
+//   snowCharacter: "&bull,",
+//   snowStick: false,
+//   useMeltEffect: false,
+//   useTwinkleEffect: false,
+//   usePositionFixed: true,
+//   freezeOnBlur: false,
+//   windOffset: 1,
+//   windMultiplier: 1,
+//   flakeTypes: 6,
+//   vMaxX: 4,
+//   vMaxY: 3,
 // };
