@@ -53,12 +53,6 @@ export default function Main() {
       }
     });
 
-    // todos.find((todo) => {
-    //   if (todo.id === id) {
-    //     todo.complete = !todo.complete;
-    //   }
-    //   return setTodos([...todos]);
-    // });
     setList([...newList]);
   };
 

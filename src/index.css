@@ -27,7 +27,7 @@ code {
 }
 
 .main:after {
-  content: url(../public/flat1.png);
+  content: url(../public/flat.png);
   position: absolute;
   top: -40px;
   right: -30px;
