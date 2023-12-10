@@ -37,13 +37,3 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
-/** @license
- * DHTML Snowstorm! JavaScript-based snow for web pages,
- * ported from https://github.com/scottschiller/Snowstorm for fandom wikis
- * -----------------------------------------------------------
- * Version 1.44.20131215 (Previous rev: 1.44.20131208)
- * Copyright (c) 2007, Scott Schiller. All rights reserved.
- * Code provided under the BSD License
- * https://github.com/scottschiller/Snowstorm/blob/master/license.txt
- */
