@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .main {
   width: 500px; /* ширина */
   margin: 0 auto; /* центрування блоку */
@@ -92,7 +96,7 @@ input::placeholder {
   .main {
     margin-left: 10px;
     margin-right: 10px;
-    width: calc(100% - 20px); /* ширина */
+    max-width: 100%;
   }
 
   .title {
@@ -111,5 +115,6 @@ input::placeholder {
 
   input {
     font-size: 26px;
+    max-width: 100%;
   }
 }
